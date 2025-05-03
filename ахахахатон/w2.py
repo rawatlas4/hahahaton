@@ -64,7 +64,7 @@ while run:
             if e.key == K_UP:
                 hero.y_speed = 0
             if e.key == K_DOWN:
-                hero.x_speed = 0
+                hero.y_speed = 0
     if not finish:
         window.blit(fon,(0,0))        
         hero.reset()
